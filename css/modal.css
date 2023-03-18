@@ -31,3 +31,36 @@
     font-weight: bolder;
     /* font-weight: bolder; */
 }
+form .input-content{
+    display: flex; /*Alinea los elementos de forma horizontal o vertical*/
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; /*Organiza*/
+    margin: 8px 0px; /* opx para mergenes laterales y 8 px para los superiores de los int*/ 
+    
+}
+.button-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-content button{
+    background-color: #008000;
+    border: 0px;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    border-radius:15px;
+    cursor: pointer;   
+}
+ .button-content button:hover {
+    /*Para el cursor el hover*/
+    background-color: #fff;
+    border: 1px solid #008000;
+    color: #008000;
+ }
+
+ .close-modal{
+    visibility: hidden;
+
+ }
